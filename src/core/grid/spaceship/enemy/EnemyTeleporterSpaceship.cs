@@ -6,7 +6,7 @@
             GameGrid grid, 
             int hp = 400,
             int concurrentLaserBlastsCount = 1, 
-            int laserBlastDamage = 30, 
+            int laserBlastDamage = 100, 
             int laserReloadFrequency = 1500, 
             int teleportFrequency = 5000,
             int scorePoints = 10

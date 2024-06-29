@@ -26,7 +26,7 @@ namespace SpaceShooter.gui
         protected void setBackgroundImage()
         {
             bool isFormHorizontal = Width >= Height;
-            BackgroundImage = isFormHorizontal ? Resources.img_space_background : Resources.img_space_background_v;
+            BackgroundImage = isFormHorizontal ? Resources.img_desert : Resources.img_desert_v;
             BackgroundImageLayout = ImageLayout.Stretch;
         }
 

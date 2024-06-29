@@ -16,7 +16,7 @@ namespace SpaceShooter.gui
             Height = gameState.Grid.DimensionY;
             Parent = parent;
 
-            BackgroundImage = resources.Resources.img_space_background;
+            BackgroundImage = resources.Resources.img_desert;
             BackgroundImageLayout = ImageLayout.Stretch;
             DoubleBuffered = true;
 

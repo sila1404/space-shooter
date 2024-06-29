@@ -9,13 +9,13 @@
         public EnemyBossSpaceship(
             GameGrid grid, 
             IGridItem target, 
-            int hp = 3000,
+            int hp = 1500,
             int concurrentLaserBlastsCount = 2, 
-            int laserBlastDamage = 50, 
+            int laserBlastDamage = 100, 
             int laserReloadFrequency = 1500,
             int teleportFrequency = 5000,
             int missileCount = 10, 
-            int missileDamage = 100, 
+            int missileDamage = 200, 
             int missileReloadFrequency = 12000, 
             int scorePoints = 20
         ) : base(

@@ -8,7 +8,7 @@ namespace SpaceShooter.core
             GameGrid grid, 
             int hp = 500, 
             int concurrentLaserBlastsCount = 1, 
-            int laserBlastDamage = 40, 
+            int laserBlastDamage = 100, 
             int laserReloadFrequency = 1500, 
             int scorePoints = 5
         ) : base(

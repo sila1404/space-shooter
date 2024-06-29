@@ -165,6 +165,26 @@ namespace SpaceShooter.resources {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap img_desert {
+            get {
+                object obj = ResourceManager.GetObject("img_desert", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_desert_v {
+            get {
+                object obj = ResourceManager.GetObject("img_desert_v", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap img_e_key {
             get {
                 object obj = ResourceManager.GetObject("img_e_key", resourceCulture);

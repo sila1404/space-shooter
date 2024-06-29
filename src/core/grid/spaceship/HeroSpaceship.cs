@@ -13,7 +13,7 @@ namespace SpaceShooter.core
             GameGrid grid, 
             int hp = 700, 
             int concurrentLaserBlastsCount = 2, 
-            int laserBlastDamage = 40, 
+            int laserBlastDamage = 100, 
             int laserReloadFrequency = 500
         ) : base (grid, hp, concurrentLaserBlastsCount, laserBlastDamage, laserReloadFrequency, 0, 0, 0, 0)
         {
@@ -80,7 +80,7 @@ namespace SpaceShooter.core
         {
             minX = grid.GetItemMinPossibleX();
             maxX = grid.GetItemMaxPossibleX(this);
-            minY = grid.GetGridMiddleY();
+            minY = grid.GetGridMiddleY() + Height;
             maxY = grid.GetItemMaxPossibleY(this);
         }
 

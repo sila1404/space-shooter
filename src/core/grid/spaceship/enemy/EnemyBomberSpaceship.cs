@@ -6,10 +6,10 @@
             GameGrid grid,
             int hp = 500,
             int concurrentLaserBlastsCount = 1,
-            int laserBlastDamage = 30,
+            int laserBlastDamage = 100,
             int laserReloadFrequency = 1500,
             int missileCount = 20,
-            int missileDamage = 100,
+            int missileDamage = 200,
             int missileReloadFrequency = 10000,
             int scorePoints = 15
         ) : base(

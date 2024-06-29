@@ -101,7 +101,7 @@ namespace SpaceShooter.core
             minX = grid.GetItemMinPossibleX();
             maxX = grid.GetItemMaxPossibleX(this);
             minY = grid.GetItemMinPossibleY();
-            maxY = grid.GetGridMiddleY() - Height;
+            maxY = grid.GetGridMiddleY() - (2 * Height);
         }
 
         protected override void initializeLocationX()
